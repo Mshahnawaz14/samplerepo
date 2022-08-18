@@ -1,0 +1,38 @@
+
+*
+{
+    padding: 0;
+    margin: 0%;
+}
+.menu-bar
+{
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex
+    list-style: none;
+    color: black;
+    font-style: 'Ubuntu', sans-serif;
+    
+
+}
+.menu-bar ul li
+{
+    width:12px;
+    margin: 50px;
+    padding: 15px;
+    
+
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.active, .menu-bar ul li a:hover
+{
+    color: aqua;
+    border-radius: 3px;
+}
