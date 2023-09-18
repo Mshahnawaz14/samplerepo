@@ -1,41 +1,54 @@
 
-*
-{
-    padding: 0;
-    margin: 0%;
+
+*{
     box-sizing: border-box;
-}
-.logo
-{
-    display: flex;
-    flex-direction:row-reverse;
-    size: 30px;
-}
-.active ul
-{
-    
-    color: black;
-    font-style: 'Ubuntu', sans-serif;
-    
+    margin: 0%;
+    padding:0%;
 
 }
-.active ul li
-{
-    width:12px;
-    margin: 50px;
-    padding: 15px;
-    list-style: none;
-    
-
-}
-.active ul li a.hovertext
-{
+li, a, button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(253, 144, 167);
     text-decoration: none;
-    color: black;
-    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
-.active, .menu-bar ul li a:hover
-{
-    color: aqua;
-    border-radius: 3px;
+header{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgb(71, 71, 71);
 }
+.nav-links{
+    list-style: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px, 25px;
+    margin: 10px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color: rgb(126, 223, 245);
+}
+button{
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+    width: 95px;
+    height: 30px;
+}
+button:hover{
+    background-color: rgba(110, 109, 109, 0.7);
+    color:rgb(253, 144, 167);
+
+}
+
+    
+
+
