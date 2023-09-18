@@ -3,29 +3,32 @@
 {
     padding: 0;
     margin: 0%;
+    box-sizing: border-box;
 }
-.menu-bar
+.logo
 {
-    text-align: center;
+    display: flex;
+    flex-direction:row-reverse;
+    size: 30px;
 }
-.menu-bar ul
+.active ul
 {
-    display: inline-flex
-    list-style: none;
+    
     color: black;
     font-style: 'Ubuntu', sans-serif;
     
 
 }
-.menu-bar ul li
+.active ul li
 {
     width:12px;
     margin: 50px;
     padding: 15px;
+    list-style: none;
     
 
 }
-.menu-bar ul li a
+.active ul li a.hovertext
 {
     text-decoration: none;
     color: black;
