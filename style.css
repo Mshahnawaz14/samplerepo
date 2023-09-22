@@ -20,10 +20,13 @@ li, a, button {
     text-align: center;
 }
 header{
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content:space-around;
     align-items: center;
     background-color: #ADD8E6
+    
 }
 .nav-links{
     list-style: none;
@@ -63,9 +66,12 @@ body {
     background-attachment: fixed;
     background-position: 80%;
 }
-h2 {
-    width: 500px;
-    align-content: center ;
+h3 {
+    font-family: sans-serif;
+    position: relative;
+    left: 30px;
+    top: 475px;
+    
 }
 
     
