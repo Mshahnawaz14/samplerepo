@@ -7,12 +7,12 @@
 
 }
 .logo{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Kanit', sans-serif;
     margin-right: 15%;
     color: #00008B;
 }
 li, a, button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Exo 2', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color:#00008B;
@@ -65,12 +65,14 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 80%;
+    
 }
 h3 {
-    font-family: sans-serif;
+    font-family: 'Exo 2', sans-serif;
     position: relative;
+    color: #EC449B;
     left: 30px;
-    top: 475px;
+    top: 270px;
     
 }
 
